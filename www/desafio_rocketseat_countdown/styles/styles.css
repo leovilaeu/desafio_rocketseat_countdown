@@ -14,27 +14,88 @@
 
 h1 {
     color: var(--purple);
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 0.5em;
 
 }
 
+.point span{
+    font-size: 3em;
+}
+
+.point {
+    margin-top: 2em;
+}
+
+.top-img {
+    width: 100%;
+
+}
+
+.bottom-img {
+    width: 100%;
+}
 
 #container {
-    margin-left: 5%;
-    padding: 1%;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+    padding: 1%;
+
 }
 
 .rocket img {
-    margin-left: 150px;
-    max-width: 700px;
+    margin-left: 5%;
+    width: 100%;
 }
+
 
 .container-counter {
     display: flex;
     flex-direction: column;
-    align-content: center;
+    align-self: center;
     text-align: center;
 }
 
+.counter {
+    display: flex;
+    justify-content: space-between;
+}
 
+.counter p{
+    font-size: 60px;
+}
+
+.counter span{
+    color: var(--text-color)
+}
+
+.clock-line {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.clock-line span {
+    font-size: 14px;
+}
+
+.countdown{
+    font-size: 34px;
+}
+
+.subscribe p {
+    color: var(--text-color);
+    font-size: 16px;
+}
+
+button {
+    background-color: #6C63FF;
+    color: white;
+    margin-top: 3%;
+    padding: 1em 3em;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px 8px #a7a7a8;
+}
